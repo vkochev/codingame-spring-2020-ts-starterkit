@@ -1,0 +1,25 @@
+{
+  "name": "codingame-spring-2020-ts-starterkit",
+  "version": "1.0.0",
+  "main": "solution.js",
+  "repository": "",
+  "author": "vkochev",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode development",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/glob": "^7.1.1",
+    "@types/jest": "^25.2.1",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
+    "ts-loader": "^7.0.3",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
